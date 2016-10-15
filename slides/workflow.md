@@ -26,3 +26,4 @@
 - Refactor SearchBar and change state as well as pass callback on input change.
 - describe onChange event on SearchBar using dual callbacks () => this.func or this.func.bind(this)
 - debounce search to limit api calls and explain the same.
+- create-react-app eject
