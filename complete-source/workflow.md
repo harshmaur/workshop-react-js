@@ -1,0 +1,28 @@
+## My Workflow during workshop
+
+- Explain React in brief. 
+- Explain JSX
+- Explain & Install create-react-app
+- Explain Youtube Player.
+- Create components folder and discuss about directory structuring. 
+- SearchBar, VideoList, VideoListItem, VideoPlayer
+- Create input in SearchBar
+- State - What it is, how does it compare with jQuery, initial state, modifying state
+- Install youtube-search-api
+- In App.js, create initial state and make a call to YTSearch. 
+- Install bootstrap npm install bootstrap@3 --save
+- css for bootstrap 
+- Install React devtools for chrome and talk about it. 
+- Add VideoList to App.js
+- Add VideoListItem to VideoList
+- Talk about key prop and props.
+- Create VideoListItem structure and pass first video to it as prop
+- handle null value during initial render
+- ES6 string interpolation, and object shorthands.
+- Work on video selection.
+- create a callback prop in APP passing through videolist and then down to videolistitem that will select the video 
+- css stylings
+- Refactor YTsearch and call in CDM as well as on Search callback
+- Refactor SearchBar and change state as well as pass callback on input change.
+- describe onChange event on SearchBar using dual callbacks () => this.func or this.func.bind(this)
+- debounce search to limit api calls and explain the same.
