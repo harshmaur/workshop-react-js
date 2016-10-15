@@ -75,7 +75,7 @@ const VideoPlayer = ({video}) => {
 ```
 
 ```css
-// css code 
+<!-- css code  -->
 
 .search-bar {
   margin: 20px;
